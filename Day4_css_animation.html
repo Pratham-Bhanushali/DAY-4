@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <style type="text/css">
+        div{background-color: rgb(199, 173, 227);
+            height: 50px;
+            width: 300px;
+            transition: 3s;
+            font-weight: bold;
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+        #div_translate:hover
+        {
+            -webkit-transform:translate(100px,100px);
+            -moz-transform:translate(100px,100px);
+            -ms-transform:translate(100px,100px);
+            -o-transform:translate(100px,100px);
+            transform:translate(100px,100px);
+            background-color: rgb(183, 228, 230);
+            color: rgb(0, 0, 0);
+        }
+        #div_rotate:hover
+        {
+            -webkit-transform:rotate(360deg) ;
+            -moz-transform:rotate(360deg) ;
+            -ms-transform:rotate(360deg) ;
+            -o-transform:rotate(360deg) ;
+            transform: rotate(360deg);
+            background-color: beige;
+        }
+        #div_rotate3D:hover{
+            transform: rotate3d(1,1,0,360deg);
+            background-color: rgb(166, 166, 217);
+        }
+        #div_skiw:hover{
+            transform: skew(45deg);
+            background-color: rgb(182, 130, 230);
+        }
+        #div_scale:hover{
+            transform: scale(1.5,1.5);
+            background-color: rgb(196, 172, 176);
+        }
+        #div_opacity:hover{
+            opacity:0;
+        }
+        #div_rgba:hover{
+            background:rgba(146, 209, 222, 0.674)
+        }
+        #div_box_shadow:hover{
+            box-shadow: 0px 0px 30px blue;
+        }
+        #div_text_shadow:hover{
+            text-shadow: 3px 3px 3px yellow;
+        }
+        #div_border_radius:hover{
+            border-radius: 20%;
+        }
+        #div_overflow:hover{
+            overflow: hidden;
+        }
+        </style>
+    </head>
+    <body bgcolor="rgba(144,216,162)">
+        <blockquote>
+            <div id="div_translate"><h2>Personal details</h2></div><br><br>
+            <div id="div_rotate">Name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<input type="text" autofocus></div><br><br>
+            <div id="div_rotate3D">father's name: <input type="text"></div><br><br>
+            <div id="div_skiw">Surname: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"></div><br><br>
+            <div id="div_scale"><h4>Gender:</h4></div>
+            <div id="div_opacity"><input type="radio" name="Gender" id="m1"> Male
+            <input type="radio" name="Gender" id="f1"> female
+            <input type="radio" name="Gender" id="t1"> Transgender</div><br><br>
+            <div id="div_rgba">Contact No.: <input type="number" maxlength="10"></div><br><br>
+            <div id="div_box_shadow">Address: <textarea row="5" placeholder="Enter your address here..." maxlength="200"></textarea></div><br><br>
+            <div id="div_text_shadow"><abbr title="Date Of Birth">D.O.B </abbr>: <input type="date"></div><br><br>
+            <div id="div_border_radius"><acronym title="Credit Score">C.S </acronym>: <input type="file" multiple accept=".pdf,.jpeg,.jpg,.png"/></div>
+            <div id="div_overflow">overflow overflow overflow overflow overflow overflow overflow overflow overflow overflow overflow overflow</div>
+          </blockquote>
+    </body>
+</html>

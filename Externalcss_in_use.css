@@ -1,0 +1,20 @@
+#div2{background-color: beige !important;height: 210px; width: 1500px; color: black; font-size: 25px; font-family: serif;}
+#div1{background-color: rgb(157, 228, 228); height: 140px; width: 650px; color: black; font-size: 25px; font-family: sans-serif;text-align: center;}
+.divclass{background-color: rgb(177, 242, 185); height: 800px; width: 1400px; color: black; font-size: 25px; font-family: cursive;padding: 10px;}
+.flex-container{
+    display: flex;
+    background-color: #D3D3D3;
+}
+.flex-container > div{
+    background-color: rgb(145, 200, 200);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*#mainUL li ul li{display:none;}
+        #mainUL li:hover ul li{display:block;}
+        #mainUL li:hover ul li ul li{display:none;}
+        #mainUL li ul li:hover ul li{display:block;}
+        #mainUL li ul li:hover ul li ul li{display:none;}
+        #mainUL li ul li ul li:hover  ul li{display:block;}*/
